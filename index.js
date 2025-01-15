@@ -1,4 +1,4 @@
-// remove duplicate 
+// remove duplicate
 
 // let arr = [12,22,11,22,33,55,99]
 // let arr2 = []
@@ -12,7 +12,6 @@
 // }
 // console.log(ans);
 
-
 //check pallindrome
 // let str = "madam"
 // let strReverse = str.split("").reverse().join("")
@@ -21,7 +20,7 @@
 // }
 // else{
 //   console.log("is not pallindrome");
-  
+
 // }
 
 //largest number
@@ -34,8 +33,7 @@
 // }
 // console.log(largest);
 
-
-// secound Largest 
+// secound Largest
 // let arr= [12,33,44,77,99,100]
 // let largest = -Infinity
 // let SecLargest = -Infinity
@@ -48,7 +46,6 @@
 // console.log(largest);
 // console.log(SecLargest);
 
-
 //email validation
 // let email = "uzairtagala120@gmail.com"
 // let validation = "@gmail.com"
@@ -58,7 +55,6 @@
 // else{
 //   console.log("email is in valid");
 // }
-
 
 //prime number
 // let num = 4
@@ -76,7 +72,6 @@
 //   }
 // }
 
-
 // let arr = [1,2,33,2,33,2,7,1,9,88,66,88]
 // let obj = {}
 // for(let i = 0 ; i < arr.length ; i++){
@@ -88,13 +83,11 @@
 // }
 // console.log(obj);
 
-
 // let arr = [12,333,22,34,5,66]
 // let ans = arr.reduce((acc,cur)=>{
 //   return acc + cur
 // })
 // console.log(ans)
-
 
 //factorail
 // let num = 9
@@ -106,7 +99,6 @@
 //   return acc * cur
 // })
 // console.log(ans);
-
 
 //fabinacci series
 // let num = 9
@@ -121,7 +113,6 @@
 // }
 // console.log(series);
 
-
 // let str = "almaaz"
 // let str2 = "maazla"
 // let sort2  =str.split("").sort().join("")
@@ -134,20 +125,102 @@
 // }
 
 //vowels
-let str = "ofuiaoiagabqweuoie7yqurgbjsbvmsdvggweurtaiufyah"
-let arr = str.split("")
-let vowels = ["a","e","i","o","u"]
-let obj = {}
-for(let i = 0 ;i <arr.length ; i++){
-  if(vowels.includes(arr[i])){
-    if(obj[arr[i]]){
-      obj[arr[i]] += 1
-    }else{
-      obj[arr[i]] = 1
-    }
-  }
-}
-console.log(obj);
+// let str = "ofuiaoiagabqweuoie7yqurgbjsbvmsdvggweurtaiufyah"
+// let arr = str.split("")
+// let vowels = ["a","e","i","o","u"]
+// let obj = {}
+// for(let i = 0 ;i <arr.length ; i++){
+//   if(vowels.includes(arr[i])){
+//     if(obj[arr[i]]){
+//       obj[arr[i]] += 1
+//     }else{
+//       obj[arr[i]] = 1
+//     }
+//   }
+// }
+// console.log(obj);
+
+// let str = "almaaz"
+// let str2 = "usama"
+// let str3 = str.split("")
+// let str4 = str2.split("")
+// let str5 = [...str3,...str4]
+// let ans= []
+// let opt = []
+// for(let i = 0 ;i < str5.length ; i++){
+//     if(!opt.includes(str5[i])){
+//         opt.push(str5[i])
+//     }
+//     else{
+//         ans.push(str5[i])
+//     }
+// }
+// console.log(ans);
+
+// let str = "today is tuesday"
+// let arr= str.split(" ")
+// let res = -Infinity
+// console.log(arr);
+// for(let i = 0 ;i < arr.length ; i++){
+//     console.log(i);
+// }
+
+// let str = "hii aftab here"
+// let str2 = str.split(" ")
+// let arr = []
+// for(let i=0 ; i < str2.length ; i++){
+//   let value = str2[i][0].toUpperCase() + str2[i].slice(1,str2[i].length)
+//   arr.push(value)
+// }
+// console.log(arr)
+
+// let arr = [1, 2, 3, 4, 5, 6, 7, 8, 9];
+// let oddMedian = "";
+// let evenMedainNum = "";
+// let evenMedainNum2 = "";
+// if (arr.length % 2 === 0) {
+//   let diviede = arr.length / 2;
+//   evenMedainNum = arr[diviede];
+//   evenMedainNum2 = arr[diviede - 1];
+//   console.log("median", evenMedainNum, evenMedainNum2);
+// } else {
+//   let diviede = Math.floor(arr.length / 2);
+//   oddMedian = arr[diviede];
+//   console.log("median", oddMedian);
+// }
+
+// let a = 1;
+// let b = 2;
+// let c = a;
+// a = b;
+// b = c;
+// console.log(a, b);
+
+// let num = 4;
+// for (let i = 1; i <= 10; i++) {
+//   console.log(num, "*", i, "=", num * i);
+// }
+
+// let year = 2028;
+// if (year % 4 === 0) {
+//   console.log(year, "it is leap yaer");
+// } else {
+//   console.log(year, "it is not leap year");
+// }
+
+
+//20
+// let arr = [];
+// let arr2 = [];
+// let nestedArr = [];
+// for (let i = 0; i <= 5; i++) {
+//   arr.push(i);
+// }
+// for (let i = 5; i <= 10; i++) {
+//   arr2.push(i);
+// }
+// nestedArr.push(arr, arr2);
+// console.log(nestedArr);
 
 
 
